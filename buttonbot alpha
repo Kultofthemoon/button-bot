@@ -19,4 +19,4 @@ async def on_message(message):
     if message.content == "push button":
         await client.send_message(message.channel, "https://www.boredpanda.com") 
 
-client.run("NDAyMjQxMjAzNDg5NDcyNTEz.DT2icg.-fpwjhE84vyP6kN81wNQmXv9EdA") #Replace token with your bots token
+client.run("NDAyMjQxMjAzNDg5NDcyNTEz.DT6O-Q.7yDS8jyGMpUEoL7GltufUuBAXLs") #Replace token with your bots token
