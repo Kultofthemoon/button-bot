@@ -17,6 +17,6 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content == "push button":
-        await client.send_message(message.channel, "https://www.boredpanda.com") #responds with Cookie emoji when someone says "cookie"
+        await client.send_message(message.channel, "https://www.boredpanda.com") 
 
 client.run("NDAyMjQxMjAzNDg5NDcyNTEz.DT2icg.-fpwjhE84vyP6kN81wNQmXv9EdA") #Replace token with your bots token
